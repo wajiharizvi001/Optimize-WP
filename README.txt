@@ -1,4 +1,4 @@
-<h1>Optimize WP Plugin</h1>
+Optimize WP Plugin
 
 Contributors: Wajiha Rizvi
 
