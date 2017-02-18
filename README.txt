@@ -36,32 +36,32 @@ Installation
 Using The WordPress Dashboard
 
 Navigate to the 'Add New' in the plugins dashboard
-Search for 'wp-cleanup-and-basic-functions'
+Search for 'optimize-wp'
 Click 'Install Now'
 Activate the plugin on the Plugin dashboard
-Customize the setting by clicking on the "WordPress Cleanup and Basic Options Functions" menu tab
+Customize the setting by clicking on the "Optimize WP" menu tab
 Uploading in WordPress Dashboard
 
 Navigate to the 'Add New' in the plugins dashboard
 Navigate to the 'Upload' area
-Select wp-cleanup-and-basic-functions.zip from your computer
+Select optimize-wp.zip from your computer
 Click 'Install Now'
 Activate the plugin in the Plugin dashboard
 Using FTP
 
-Download wp-cleanup-and-basic-functions.zip
-Extract the wp-cleanup-and-basic-functions directory to your computer
-Upload the wp-cleanup-and-basic-functions directory to the /wp-content/plugins/ directory
+Download optimize-wp.zip
+Extract the optimize-wp directory to your computer
+Upload the optimize-wp directory to the /wp-content/plugins/ directory
 Activate the plugin in the Plugin dashboard
 Frequently Asked Questions
 
-How to use WordPress Cleanup and Basic Options Functions?
+How to use Optimize WP?
 
-Just activate the plugin then go to the "Settings -> WP Cleanup" menu and just check the options you want.
+Just activate the plugin then go to the "Settings -> Optimize WP" menu and just check the options you want.
 
-Will WordPress Cleanup and Basic Options Functions slow my website?
+Will Optimize WP slow my website?
 
-Well this is actually the whole contrary, WordPress Cleanup and Basic Options Functions will reduce the cluter from your website head section getting rid of useless scripts and inline css.
+Well this is actually the whole contrary, Optimize WP will reduce the cluter from your website head section getting rid of useless scripts and inline css.
 
 I am not a developer, should i use that plugin
 
