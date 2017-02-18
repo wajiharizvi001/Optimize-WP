@@ -2,7 +2,7 @@
 
 Contributors: Wajiha Rizvi
 
-Donate link: wpfunctions.freesite.host
+Donate link: https://wpfunctions.freesite.host
 
 Tags: cleanup, WordPress head cleanup, developers common functions, images settings, privacy settings, administration customizations
 
