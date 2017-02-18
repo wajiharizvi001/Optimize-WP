@@ -1,3 +1,5 @@
+<h1>Optimize WP Plugin</h1>
+
 Contributors: Wajiha Rizvi
 
 Donate link: wpfunctions.freesite.host
