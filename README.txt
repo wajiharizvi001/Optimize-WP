@@ -1,8 +1,12 @@
+Contributors: Wajiha Rizvi
+
+Donate link: wpfunctions.freesite.host
+
 Tags: cleanup, WordPress head cleanup, developers common functions, images settings, privacy settings, administration customizations
 
 Requires at least: 3.5.1
 
-Tested up to: 4.3
+Tested up to: 4.7.2
 
 Stable tag: 2.1.1
 
