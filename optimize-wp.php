@@ -29,34 +29,29 @@
 if ( ! defined( 'WPINC' ) ) {
 	die;
 }
-
 /**
  * The code that runs during plugin activation.
- * This action is documented in includes/class-optimize-wp-activator.php
+ * This action is documented in includes/class-wp-optimize-activator.php
  */
-function activate_optimize_wp() {
-	require_once plugin_dir_path( __FILE__ ) . 'includes/class-optimize-wp-activator.php';
-	Optimize_Wp_Activator::activate();
+function activate_wp_optimize() {
+	require_once plugin_dir_path( __FILE__ ) . 'includes/class-wp-optimize-activator.php';
+	Wp_Optimize_Activator::activate();
 }
-
 /**
  * The code that runs during plugin deactivation.
- * This action is documented in includes/class-optimize-wp-deactivator.php
+ * This action is documented in includes/class-wp-cbf-deactivator.php
  */
-function deactivate_optimize_wp() {
-	require_once plugin_dir_path( __FILE__ ) . 'includes/class-optimize-wp-deactivator.php';
-	Optimize_Wp_Deactivator::deactivate();
+function deactivate_wp_optimize() {
+	require_once plugin_dir_path( __FILE__ ) . 'includes/class-wp-optimize-deactivator.php';
+	Wp_Cbf_Deactivator::deactivate();
 }
-
-register_activation_hook( __FILE__, 'activate_optimize_wp' );
-register_deactivation_hook( __FILE__, 'deactivate_optimize_wp' );
-
+register_activation_hook( __FILE__, 'activate_wp_optimize' );
+register_deactivation_hook( __FILE__, 'deactivate_wp_optimize' );
 /**
  * The core plugin class that is used to define internationalization,
  * admin-specific hooks, and public-facing site hooks.
  */
-require plugin_dir_path( __FILE__ ) . 'includes/class-optimize-wp.php';
-
+require plugin_dir_path( __FILE__ ) . 'includes/class-wp-optimize.php';
 /**
  * Begins execution of the plugin.
  *
@@ -66,10 +61,8 @@ require plugin_dir_path( __FILE__ ) . 'includes/class-optimize-wp.php';
  *
  * @since    1.0.0
  */
-function run_optimize_wp() {
-
-	$plugin = new Optimize_Wp();
+function run_wp_optimize() {
+	$plugin = new WP_Optimize();
 	$plugin->run();
-
 }
-run_optimize_wp();
+run_wp_optimize();
